@@ -9,6 +9,9 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
+        body: SafeArea(
+          child: Row(),
+        ),
         backgroundColor: Colors.teal,
       ),
     );
