@@ -16,6 +16,7 @@ class MyApp extends StatelessWidget {
                 width: 100,
                 color: Colors.red,
               ),
+              Column()
             ],
           ),
         ),
