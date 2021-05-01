@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
                 color: Colors.red,
               ),
               Column(
-                children: <Widget>[],
+                children: <Widget>[Container()],
               ),
             ],
           ),
