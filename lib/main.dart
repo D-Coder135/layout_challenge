@@ -12,7 +12,9 @@ class MyApp extends StatelessWidget {
         body: SafeArea(
           child: Row(
             children: <Widget>[
-              Container(),
+              Container(
+                width: 100,
+              ),
             ],
           ),
         ),
