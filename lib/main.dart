@@ -13,13 +13,14 @@ class MyApp extends StatelessWidget {
           child: Row(
             children: <Widget>[
               Container(
-                width: 100,
+                width: 100.0,
                 color: Colors.red,
               ),
               Column(
                 children: <Widget>[
                   Container(
-                    width: 100,
+                    width: 100.0,
+                    height: 100.0,
                   ),
                 ],
               ),
