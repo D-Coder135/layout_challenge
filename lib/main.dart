@@ -11,7 +11,9 @@ class MyApp extends StatelessWidget {
       home: Scaffold(
         body: SafeArea(
           child: Row(
-            children: <Widget>[],
+            children: <Widget>[
+              Container(),
+            ],
           ),
         ),
         backgroundColor: Colors.teal,
